@@ -31,7 +31,6 @@ const loadCountryByName = name => {
         .then(data => displayCountryDetail(data[0]));
 
 }
-
 const displayCountryDetail = country => {
     console.log(country);
     const countryDiv = document.getElementById('country-detail');
